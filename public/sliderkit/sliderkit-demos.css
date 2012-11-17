@@ -1,0 +1,69 @@
+
+.sliderkit-nav-clip {top: 20px !important;}
+
+#photoslider-vertical{width:300px;height:335px;padding-left:200px;}
+
+/* Nav */
+#photoslider-vertical .sliderkit-nav{left:10px;top:99px;width:150px;height:90px;}
+#photoslider-vertical .sliderkit-nav-clip{top:19px;width:150px !important;text-align:center;}
+#photoslider-vertical .sliderkit-nav-clip li{width:150px !important;text-align:center;display:block;color:#090909;font-size:1.2em;text-transform:uppercase;}
+
+/* Buttons */
+#photoslider-vertical .sliderkit-nav-btn{position:absolute;z-index:10;left:110px;width:15px;height:15px;}
+#photoslider-vertical .sliderkit-nav-prev{top:0;}
+#photoslider-vertical .sliderkit-nav-next{top:75px;}
+#photoslider-vertical .sliderkit-nav-btn a{display:block;width:15px;height:15px;cursor:pointer;background:transparent url("../images/sliderkit/mc-hpslider-arrows.gif") no-repeat 0 0;}
+#photoslider-vertical .sliderkit-nav-prev a{background-position:0 0;}
+#photoslider-vertical .sliderkit-nav-next a{background-position:0 -15px;}
+#photoslider-vertical .sliderkit-nav-btn span{display:none;}
+#photoslider-vertical .sliderkit-panels{}
+
+
+
+
+.photosgallery-vertical{
+	width:706px;
+	height:470px;
+	background: url("/images/border_main_700.png") no-repeat;
+	float: right;
+}
+
+/* Nav */
+.photosgallery-vertical .sliderkit-nav{top:0;left:600px;width:95px;height:100%; }
+.photosgallery-vertical .sliderkit-nav-clip{left:7px;}
+.photosgallery-vertical .sliderkit-nav-clip ul li{margin:0;padding:0 0 5px 0;}
+.photosgallery-vertical .sliderkit-nav-clip ul li a{display:block;width:79px;height:54px;overflow:hidden;padding:0px;}
+.photosgallery-vertical .sliderkit-nav-clip ul li.sliderkit-selected img{padding:0;border:2px solid #A2CD5A;}
+.photosgallery-vertical .sliderkit-nav-clip ul li img{width:75px;height:50px; border: 2px solid#fff;}
+
+/* Nav buttons */
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-btn{position:absolute;left:0;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-btn a{
+	display:block;
+	width:95px;
+	height:16px;
+	background: url("../images/sliderkit/arrows-v.png") no-repeat center 0 !important;
+}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-btn a span{display:none;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev {top:25px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev a{background-position:center -89px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-next a{background-position:center -108px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev a:hover,
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:center -126px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-next a:hover,
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-next a:focus{background-position:center -145px;}
+
+/* Go Buttons */
+.photosgallery-vertical .sliderkit-go-btn a{width:200px;height:300px;background:#ccc;opacity:.8;}
+.photosgallery-vertical .sliderkit-go-prev{top:0;left:0;}
+.photosgallery-vertical .sliderkit-go-next{top:0;right:0;}
+
+/* Panel */
+.photosgallery-vertical .sliderkit-panel{top:3px;left:3px;width:700px;height:464px;}
+
+/* Panel > Textbox */
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-textbox{bottom:0;left:0;height:85px;width:650px;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text{height:65px;padding:10px 15px 10px 15px;font-size:14px;color:#fff;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text h4{height:auto;margin:0 0 7px;line-height:1.1em;font-size:1.1em;font-weight:bold;border:none;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-overlay{height:0px;width:706px;background:#000;opacity:0.6;}
+
